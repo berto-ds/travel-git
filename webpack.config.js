@@ -20,7 +20,8 @@ module.exports = {
 
                                     'postcss-simple-vars',
                                     'postcss-nested',
-                                    'autoprefixer'
+                                    'autoprefixer',
+                                    'postcss-import'
 
 
 

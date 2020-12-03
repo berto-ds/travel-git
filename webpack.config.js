@@ -18,10 +18,9 @@ module.exports = {
                             postcssOptions: {
                                 plugins: [
 
-                                    'postcss-simple-vars',
-                                    'postcss-nested',
-                                    'autoprefixer',
-                                    'postcss-import'
+                                    require('postcss-simple-vars'),
+                                    require('postcss-nested'),
+                                    require('autoprefixer')
 
 
 
